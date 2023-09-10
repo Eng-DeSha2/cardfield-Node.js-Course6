@@ -1,0 +1,93 @@
+
+
+body {
+    min-height: 100vh;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    
+  }
+  h2{
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  
+.card {
+    margin: 0 auto;
+    width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  
+  
+  
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D1D5DB;
+    border-radius: 5px;
+    margin-bottom: 8px;
+  
+  }
+
+  
+
+  .my-button {
+    width: 100%;
+    margin-top: 20px; 
+    align-self: start;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: green;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  .my-button:hover {
+    background-color: #b97329;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+    margin: 20px auto; 
+
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
